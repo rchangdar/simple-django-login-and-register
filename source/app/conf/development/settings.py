@@ -67,8 +67,8 @@ WSGI_APPLICATION = 'app.wsgi.application'
 
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = os.path.join(CONTENT_DIR, 'tmp/emails')
-EMAIL_HOST_USER = 'test@example.com'
-DEFAULT_FROM_EMAIL = 'test@example.com'
+EMAIL_HOST_USER = 'rajeshcemkit@gmail.com' #Updated in place of test@example.com
+DEFAULT_FROM_EMAIL = 'rajeshcemkit@gmail.com' #Updated in place of test@example.com
 
 DATABASES = {
     'default': {
